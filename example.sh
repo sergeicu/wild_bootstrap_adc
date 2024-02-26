@@ -6,4 +6,5 @@ source venv/bin/activate
 pip install -r requirements.txt 
 
 # run 
+source venv/bin/activate
 python wild_bootstrap_adc.py --nifti allb_mc.nii.gz --bvals allb_mc.bval --seg seg3.nii.gz --iterations 10 --savedir output

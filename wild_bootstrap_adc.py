@@ -184,6 +184,7 @@ if __name__ == '__main__':
 
     # save predicted nifti     
     print("Saving images")        
+    os.makedirs(savedir,exist_ok=True)
     assert os.path.exists(savedir)
     for i, paramPredict_i in enumerate(paramPredict):
         print(i)
